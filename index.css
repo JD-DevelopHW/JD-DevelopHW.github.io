@@ -1,0 +1,31 @@
+body {
+
+      background-color: #0a0e17;
+
+      color: #ffffff;
+
+      font-family: 'Plus Jakarta Sans', sans-serif;
+
+    }
+
+    .gold-gradient-text {
+
+      background: linear-gradient(to right, #ffd900, #ffb700);
+
+      -webkit-background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+    }
+
+    .check-list-item::before {
+
+      content: '✓';
+
+      margin-right: 0.5rem;
+
+      color: #ffd900;
+
+      font-weight: bold;
+
+    }
